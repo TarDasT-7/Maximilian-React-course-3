@@ -38,10 +38,24 @@ const DUMMY_MEALS =[
         price : 8.45
     },
 
-
-
 ];
 
-const AvailableMeals = props => {};
+const AvailableMeals = props => {
+
+    const mealsList = DUMMY_MEALS.map( burger => (
+
+        <li key={burger.id} >{burger.name}</li>
+
+    ) );
+
+    return(
+        <section className={styles.meals}>
+            <ul>
+                {mealsList}
+            </ul>
+        </section>
+    );
+
+};
 
 export default AvailableMeals;
