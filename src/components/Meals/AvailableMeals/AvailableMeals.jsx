@@ -17,7 +17,7 @@ const DUMMY_MEALS =[
     {
         id: 'b2',
         name: 'Super Burger',
-        description : 'Mac Bread, Two Beefs(250 grams), Grilled Chicken(80 grams), Smoked Sauce, Lettuce, Tomato',
+        description : 'Mac Bread, Two Beefs(250 grams x2), Grilled Chicken(80 grams), Smoked Sauce, Lettuce, Tomato',
         price : 9.95
     },
 
@@ -38,8 +38,8 @@ const DUMMY_MEALS =[
     {
         id: 'b5',
         name: 'Bacon Burger BBQ',
-        description : 'Mac Bread, Grilled Beef(300 grams), Bacon(80 grams), Smoked Sauce, Garlic Sauce, Tomato',
-        price : 8.45
+        description : 'Mac Bread, Grilled Beefs(150 grams x2), Bacon(80 grams), Smoked Sauce, Garlic Sauce, Tomato',
+        price : 8.75
     },
 
 ];

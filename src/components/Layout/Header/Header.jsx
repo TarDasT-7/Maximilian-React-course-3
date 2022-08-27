@@ -13,7 +13,7 @@ const Header = props => {
 
                 <h1>Good Mood :)</h1>
                 
-                <CardButton />
+                <CardButton onShowCart={props.onShowCart}  />
 
             </header>
             
