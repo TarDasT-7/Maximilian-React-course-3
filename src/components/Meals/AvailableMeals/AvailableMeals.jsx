@@ -16,30 +16,44 @@ const DUMMY_MEALS =[
 
     {
         id: 'b2',
+        name: 'Grilled Burger',
+        description : 'Mac Bread, Beef(250 grams), Smoked Sauce, Lettuce, Tomato',
+        price : 5.15
+    },
+
+    {
+        id: 'b3',
         name: 'Super Burger',
         description : 'Mac Bread, Two Beefs(250 grams x2), Grilled Chicken(80 grams), Smoked Sauce, Lettuce, Tomato',
         price : 9.95
     },
 
     {
-        id: 'b3',
+        id: 'b4',
         name: 'Cheese Burger',
         description : 'Mac Bread, Beef(250 grams), Cheese(gouda), Smoked Sauce, Lettuce, Tomato',
         price : 6.55
     },
 
     {
-        id: 'b4',
+        id: 'b5',
         name: 'Mushroom Burger',
         description : 'Mac Bread, Beef(250 grams), Mushroom, Smoked Sauce, Mushroom Sauce, Lettuce, Tomato',
         price : 6.25
     },
 
     {
-        id: 'b5',
+        id: 'b6',
         name: 'Bacon Burger BBQ',
         description : 'Mac Bread, Grilled Beefs(150 grams x2), Bacon(80 grams), Smoked Sauce, Garlic Sauce, Tomato',
         price : 8.75
+    },
+
+    {
+        id: 'b7',
+        name: 'Mix Burger',
+        description : 'Mac Bread, Beefs(250 grams), Chicken(120 grams), Mushroom, Smoked Sauce, Garlic Sauce, Tomato',
+        price : 7.00
     },
 
 ];
